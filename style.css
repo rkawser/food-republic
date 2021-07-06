@@ -1,6 +1,106 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+section{
+    display: flex;
+    margin-bottom:150px;
+
 }
 h1{
-    color: red;
+    font-size: 50px;
+}
+h2{
+    font-size: 30px;
+}
+.orange{
+    color: orange;
+    font-weight: 700;
+}
+.half-width{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 2%;
+    padding-left: 2%;
+}
+.half-width img{
+    width:80%;
+  
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(red,aqua);
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-weight: 700;
+    color: black;
+  
+}
+.top-banner{
+    background-image: url(images/images/shapes/Frame\ 58.jpg);
+   background-repeat: no-repeat;
+}
+.container{
+    background-image: url(images/images/shapes/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+}
+.group{
+    width:40%;
+    margin-left: 5%;
+    padding:2px;
+ 
+}
+.group img{
+    width:80%;
+}
+
+#custom{
+   margin-left:35%;
+   
+}
+#recipie1{
+    margin-left: 5%;
+    padding-left:20px;
+   border-radius: 10px;
+   box-shadow: 10px 10px 30px gray;
+   height:500px;
+
+
+}
+.image{
+    padding-top: 5px;
+}
+
+
+#recipie2{
+    margin-left: 5%;
+    padding-left:20px;
+   border-radius: 10px;
+   box-shadow: 10px 10px 30px gray;
+   height:500px;
+
+
+}
+#recipie3{
+    margin-left: 5%;
+    padding-left:20px;
+   border-radius: 10px;
+   box-shadow: 10px 10px 30px gray;
+   height:500px;
+
+}
+.cover{
+    background-color: blanchedalmond;
+    margin-left: 5%;
+    margin-right: 2%;
+    border-radius: 10px;
+    box-shadow:10px 10px 30px gray;
+}
+
+footer{
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+    padding: 30px;
 }
