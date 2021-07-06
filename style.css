@@ -2,14 +2,26 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-
+ul{
+    margin: 0;padding: 0;list-style:none ;
+    text-align: left;}
+li{
+display: inline-block;margin: 5px 10px;}
+a{
+    text-decoration: none;
+     background-color:rebeccapurple;
+     color: white;
+     padding: 5px 10px;
+     border-radius: 5px;
+}
+a:hover{background-color: red;color: white; }
 section{
     display: flex;
     margin-bottom:150px;
 
 }
 h1{
-    font-size: 50px;
+    font-size: 40px;
 }
 h2{
     font-size: 30px;
@@ -40,10 +52,12 @@ h2{
 .top-banner{
     background-image: url(images/images/shapes/Frame\ 58.jpg);
    background-repeat: no-repeat;
+   background-size:cover;
 }
 .container{
     background-image: url(images/images/shapes/Frame\ 57.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 .group{
     width:40%;
